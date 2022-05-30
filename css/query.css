@@ -12,7 +12,20 @@
         flex-basis: calc(100%/ 3 * 2 - 15px);
     }
 
+    /* SECTION TESTIMONIAL */
 
+    .col-testimonial {
+        flex-direction: row;
+        display: flex;
+    }
+
+    /* SECTION ABOUT */
+
+    .row-about {
+
+        flex-direction: row;
+
+    }
 
 }
 
@@ -36,5 +49,7 @@
     .container .row-planning {
         flex-direction: row;
     }
+
+
 
 }
