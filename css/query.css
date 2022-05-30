@@ -1,18 +1,18 @@
 /* TABLET */
-@media screen and (min-width:767) {}
+@media screen and (min-width: 768px) {}
 
 
 /* DESKTOP */
 
-@media screen and (min-width:993) {
+@media screen and (min-width: 992px) {
 
 
-    .nav-right-hidden {
-        display: flex;
+    .hamburger-menu {
+        display: none;
     }
 
-    .nav-right {
-        display: none;
+    .main-menu {
+        display: flex;
     }
 
 
