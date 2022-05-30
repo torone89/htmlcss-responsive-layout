@@ -1,5 +1,8 @@
 /* Color */
-/* #0084fd Blue Navbar */
+/* #0084fd Blue Navbar
+#9792e3 Planning
+*/
+
 
 /* Reset */
 * {
@@ -98,6 +101,25 @@ body {
     color: rgb(16, 15, 15);
     border: 1px black dashed;
 
+}
+
+
+/* SECTION PLANNIG */
+
+#planning {
+    background-color: #9792e3;
+    height: 300px;
+}
+
+
+.row-planning {
+    flex-direction: column;
+    display: flex;
+}
+
+.col-planning {
+    flex-basis: 50%;
+    border: 1px black dashed;
 }
 
 

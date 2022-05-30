@@ -1,6 +1,8 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
 
+
+    /* SECTION APP */
     .column {
 
         display: flex;
@@ -15,7 +17,7 @@
 
 @media screen and (min-width: 992px) {
 
-
+    /* SECTTION NAV BAR */
     .hamburger-menu {
         display: none;
     }
@@ -24,5 +26,10 @@
         display: flex;
     }
 
+    /* SECTION PLANNING */
+
+    .container .row-planning {
+        flex-direction: flex;
+    }
 
 }
