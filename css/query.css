@@ -3,13 +3,17 @@
 
 
     /* SECTION APP */
-    .column {
+    .row {
 
-        display: flex;
-        flex-wrap: nowrap;
+        flex-direction: row;
+    }
 
+    .card-big {
+        flex-basis: calc(100%/ 3 * 2 - 15px);
+    }
 
-
+    .card-small {
+        display: none;
     }
 }
 
