@@ -10,6 +10,8 @@
 
     .card-big {
         flex-basis: calc(100%/ 3 * 2 - 15px);
+        display: flex;
+
     }
 
     /* SECTION TESTIMONIAL */

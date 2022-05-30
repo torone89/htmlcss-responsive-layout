@@ -1,6 +1,7 @@
 /* Color */
-/* #0084fd Blue Navbar
-#9792e3 Planning
+/* #Blue Navbar #0084fd 
+ Planning #9792e3
+card #b5dcff
 */
 
 
@@ -27,6 +28,7 @@ ul {
 a {
     text-decoration: none;
     color: black;
+
 }
 
 header {
@@ -54,9 +56,37 @@ section {
 
 /* Utilities */
 
+.d-inline-b {
+    display: inline-block;
+}
+
 .mb-50 {
     margin-bottom: 50px;
 }
+
+
+
+
+/* BUTTON */
+
+.btn {
+    padding: 5px 20px;
+    border: 1px solid rgb(204, 197, 197);
+    border-radius: 30px;
+
+}
+
+.btn-light {
+    background-color: white;
+    color: black;
+}
+
+.btn-blue {
+    background-color: #0084fd;
+    color: white;
+}
+
+
 
 /* Header */
 
@@ -79,7 +109,7 @@ section {
 
 #navbar ul li {
     display: inline;
-
+    margin-left: 1.5rem;
     font-size: 20px;
 }
 
@@ -94,15 +124,16 @@ section {
     border: 5px dashed red;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 30px;
+
 }
 
 .column {
     flex-basis: 30%;
     border: 1px dashed black;
     padding: 10px;
-    background-color: #0bac19;
+    background-color: #b5dcff;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .card {
