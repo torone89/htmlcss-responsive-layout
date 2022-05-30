@@ -4,4 +4,16 @@
 
 /* DESKTOP */
 
-@media screen and (min-width:1159) {}
+@media screen and (min-width:993) {
+
+
+    .nav-right-hidden {
+        display: flex;
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+
+}

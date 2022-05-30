@@ -1,5 +1,5 @@
 /* Color */
-
+/* #0084fd Blue Navbar */
 
 /* Reset */
 * {
@@ -10,15 +10,62 @@
 
 /* Generic */
 
-.container {
-    min-height: 300px;
-    margin: 0 auto;
-    width: 100%;
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: #0084fd;
+    height: 70px;
+    box-shadow: 0 1px 3px lightgrey;
+    height: 70px;
+
+}
+
+body {
+    margin-top: 70px;
 }
 
 /* Utilities */
 
 /* Header */
+
+/* NAVBAR-FIX */
+
+#navbar {
+
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-right-hidden {
+    display: none;
+}
+
+#navbar ul li {
+    display: inline;
+
+    font-size: 20px;
+}
+
 
 /* Main */
 
