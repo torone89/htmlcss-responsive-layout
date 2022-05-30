@@ -17,7 +17,7 @@
 
     margin: 0 auto;
     width: 80%;
-    height: 400px;
+    height: 100%;
 }
 
 ul {
@@ -143,6 +143,16 @@ body {
 .col-testimonial {
     flex-basis: calc (100% / 3);
     border: 1px black dashed;
+}
+
+
+
+/* SECTION BENEFITS*/
+
+
+#benefits {
+    background-color: #9792e3;
+    height: 100%;
 }
 
 /* Footer */
