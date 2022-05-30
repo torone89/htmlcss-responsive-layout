@@ -50,6 +50,10 @@ body {
 
 /* Utilities */
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
 /* Header */
 
 /* NAVBAR-FIX */
@@ -195,5 +199,13 @@ body {
     text-align: center;
 }
 
-/* Footer *
-/
+/* Footer */
+
+.footer-con {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
