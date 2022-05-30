@@ -48,6 +48,10 @@ body {
     margin-top: 70px;
 }
 
+section {
+    margin-bottom: 100px;
+}
+
 /* Utilities */
 
 .mb-50 {
@@ -197,6 +201,7 @@ body {
 #started {
     background-color: #9792e3;
     text-align: center;
+    margin-bottom: 0;
 }
 
 /* Footer */
