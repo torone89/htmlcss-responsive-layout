@@ -6,6 +6,8 @@
     .column {
 
         display: flex;
+        flex-wrap: nowrap;
+
 
 
     }
@@ -29,7 +31,7 @@
     /* SECTION PLANNING */
 
     .container .row-planning {
-        flex-direction: flex;
+        flex-direction: row;
     }
 
 }
