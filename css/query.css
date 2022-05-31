@@ -11,8 +11,14 @@
         flex-direction: row;
     }
 
+    .column {
+        width: calc(100% / 3 - 20px);
+
+    }
+
     .big-column {
-        flex-basis: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2 - 20px);
+
 
     }
 
@@ -23,6 +29,23 @@
 
     .big-column .card {
         display: flex;
+    }
+
+    #app .card h3 {
+        font-weight: 700;
+        color: #0084fd;
+        font-size: 25px;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+
+
+    .i-special {
+        color: #0084fd;
+        font-size: 80px;
+        line-height: 700;
+
     }
 
     /* SECTION TESTIMONIAL */
@@ -56,6 +79,12 @@
     .card-big {
         display: flex;
         flex-direction: row;
+    }
+
+    #app .card .btn {
+
+        margin-bottom: 0;
+
     }
 
     /* SECTTION NAV BAR */

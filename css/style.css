@@ -143,18 +143,18 @@ section {
     display: flex;
     flex-direction: column;
     border: 5px dashed red;
-
     flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0 -10px;
 
 
 }
 
 .column {
-    flex-basis: calc(100% / 3);
-    padding: 10px;
-
+    width: 100%;
+    padding: 10px 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
 
 }
 
@@ -202,6 +202,7 @@ section {
     line-height: 700;
 
 }
+
 
 
 /* SECTION PLANNIG */
