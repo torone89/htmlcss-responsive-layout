@@ -99,10 +99,17 @@
     /* SECTION PLANNING */
 
     .container .row-planning {
-        flex-direction: row;
+
+        display: flex;
+        height: 100%;
+        width: 100%;
     }
 
 
+    .row-planning img {
+        width: 50%;
+        height: 50%;
+    }
 
 }
 
