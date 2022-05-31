@@ -1,17 +1,28 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
 
+    .container {
+        max-width: 745px;
+    }
+
 
     /* SECTION APP */
     .row {
-
         flex-direction: row;
     }
 
-    .card-big {
-        flex-basis: calc(100%/ 3 * 2 - 15px);
-        display: flex;
+    .big-column {
+        flex-basis: calc(100% / 3 * 2);
 
+    }
+
+    .card-big {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .big-column .card {
+        display: flex;
     }
 
     /* SECTION TESTIMONIAL */
@@ -37,6 +48,16 @@
 
 @media screen and (min-width: 992px) {
 
+    .container {
+        max-width: 970px;
+    }
+
+    /* SECTION APP */
+    .card-big {
+        display: flex;
+        flex-direction: row;
+    }
+
     /* SECTTION NAV BAR */
     .hamburger-menu {
         display: none;
@@ -54,4 +75,14 @@
 
 
 
+}
+
+
+/* LARGE DESKTOP */
+
+@media screen and (min-width: 1140px) {
+
+    .container {
+        max-width: 1140px;
+    }
 }

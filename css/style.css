@@ -5,6 +5,9 @@ card #b5dcff
 */
 
 
+
+/* card background */
+
 /* Reset */
 * {
     box-sizing: border-box;
@@ -18,7 +21,6 @@ card #b5dcff
 
     margin: 0 auto;
     width: 80%;
-    height: 100%;
 }
 
 ul {
@@ -48,6 +50,7 @@ header {
 
 body {
     margin-top: 70px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 section {
@@ -62,6 +65,20 @@ section {
 
 .mb-50 {
     margin-bottom: 50px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+
+.f-50 {
+    flex-basis: 50%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -84,6 +101,11 @@ section {
 .btn-blue {
     background-color: #0084fd;
     color: white;
+    width: 14rem;
+    height: 3rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2rem;
 }
 
 
@@ -94,8 +116,7 @@ section {
 
 #navbar {
 
-    margin: 0 auto;
-    width: 80%;
+
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -122,26 +143,63 @@ section {
     display: flex;
     flex-direction: column;
     border: 5px dashed red;
-    justify-content: space-between;
+
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+
 
 }
 
 .column {
-    flex-basis: 30%;
-    border: 1px dashed black;
+    flex-basis: calc(100% / 3);
     padding: 10px;
-    background-color: #b5dcff;
-    margin-bottom: 10px;
-    border-radius: 10px;
+
+
 }
 
 .card {
-    background-color: yellow;
-    border-radius: 10px;
 
+    border-radius: 10px;
+    padding: 2rem;
     color: rgb(16, 15, 15);
     border: 1px black dashed;
+    height: 100%;
+    width: 100%;
+
+}
+
+#app .card {
+    background-color: #b5dcff;
+}
+
+
+#app .card h3 {
+    font-weight: 700;
+    color: #0084fd;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#app .card p {
+    font-weight: 700;
+    color: #5a7081;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+#app .card .btn {
+    font-weight: 700;
+
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.i-special {
+    color: #0084fd;
+    font-size: 130px;
+    line-height: 700;
 
 }
 
