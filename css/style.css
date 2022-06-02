@@ -401,11 +401,58 @@ section {
 }
 
 
+
+/* SECTION STARTED */
+
+
 #started {
     background-color: #9792e3;
     text-align: center;
+    color: white;
     margin-bottom: 0;
+    padding: 60px;
 }
+
+
+.start-one {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 25px
+}
+
+.start-due {
+    margin-bottom: 25px;
+    font-size: 1.875rem;
+}
+
+.p-text-start {
+    margin-bottom: 30px;
+}
+
+.start-tre {
+    margin-bottom: 25px;
+    font-size: 3.75rem;
+    color: #fdc15f
+}
+
+.btn-start {
+    background-color: white;
+    color: #9792e3;
+    width: 14rem;
+    height: 4rem;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    line-height: 3.5rem;
+    vertical-align: auto;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+
+
+
+
 
 /* Footer */
 
