@@ -54,9 +54,14 @@
 
     /* SECTION TESTIMONIAL */
 
-    .col-testimonial {
-        flex-direction: row;
+    .testimonial-card {
+        align-items: center;
         display: flex;
+        flex-direction: row;
+    }
+
+    .card-image-testimonial {
+        flex-shrink: 0;
     }
 
     /* SECTION ABOUT */
