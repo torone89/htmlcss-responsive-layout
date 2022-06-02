@@ -135,7 +135,7 @@
 
 
     #benefits .column-benefits {
-        width: calc(100% / 3 - 60px);
+        width: calc(100% / 3 - 40px);
         margin-right: 20px;
         margin-left: 20px;
 
