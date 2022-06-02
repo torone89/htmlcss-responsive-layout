@@ -178,7 +178,7 @@ section {
     border-radius: 10px;
     padding: 2rem;
     color: rgb(16, 15, 15);
-    border: 1px black dashed;
+
     height: 100%;
     width: 100%;
 
@@ -218,6 +218,11 @@ section {
 
 }
 
+
+.btn-benefits {
+    background-color: #9792e4;
+    color: white
+}
 
 
 /* SECTION PLANNIG */
@@ -346,7 +351,35 @@ section {
 
 #benefits {
     background-color: #9792e3;
-    height: 100%;
+    padding: 50px 30px;
+    margin-bottom: 50px
+}
+
+
+.number-card {
+    font-size: 55px;
+    color: #9792e4;
+    margin-bottom: 26px;
+
+}
+
+.card-benefits {
+    padding: 32px;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 40px;
+
+}
+
+.middle-text-benefits {
+    color: #9792e4;
+    margin-bottom: 23px;
+}
+
+.card-ptext-benefits {
+    margin-bottom: 26px;
+    color: rgba(0, 0, 0, 0.55)
 }
 
 

@@ -64,6 +64,22 @@
         flex-shrink: 0;
     }
 
+    /* SECTION BENEFITS */
+
+    #benefits .row-benefits {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #benefits .column-benefits {
+        width: calc(50% - 40px);
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+
+
+
     /* SECTION ABOUT */
 
     .row-about {
@@ -75,8 +91,9 @@
 }
 
 
-
+/* ************************** */
 /* DESKTOP */
+/* ****************************** */
 
 @media screen and (min-width: 992px) {
 
@@ -114,7 +131,15 @@
         max-width: 300px;
     }
 
+    /* SECTION BENEFITS */
 
+
+    #benefits .column-benefits {
+        width: calc(100% / 3 - 60px);
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
 
 
 }
