@@ -409,19 +409,30 @@ section {
 
 /* Footer */
 
-.footer-con {
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+footer {
+    padding: 32px 32px;
+    font-size: 14px;
+    background: #333;
 }
 
+
+
+.footer-contents {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.text-footer {
+    margin-bottom: 40px;
+}
 
 
 /* FONT */
 
 .white-text {
     color: white;
+}
+
+.purple-text {
+    color: #9792e3;
 }
