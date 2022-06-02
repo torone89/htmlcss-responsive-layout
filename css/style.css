@@ -20,8 +20,8 @@ card #b5dcff
 .container {
 
     margin: 0 auto;
-    width: 80%;
-    height: 100%;
+    max-width: 600px;
+
 }
 
 ul {
@@ -32,6 +32,10 @@ a {
     text-decoration: none;
     color: black;
 
+}
+
+img {
+    max-width: 100%;
 }
 
 header {
@@ -82,6 +86,9 @@ section {
     justify-content: center;
 }
 
+.align-center {
+    align-items: center;
+}
 
 
 
@@ -122,7 +129,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 2rem 0;
 }
 
 .main-menu {
@@ -135,6 +142,9 @@ section {
     font-size: 20px;
 }
 
+.hamburger {
+    font-size: 1.5rem;
+}
 
 /* Main */
 
@@ -210,10 +220,21 @@ section {
 
 #planning {
     background-color: #9792e3;
+    padding: 4rem 2rem;
+    color: white;
+    margin-top: 5rem;
 
 }
 
+#planning .image {
+    display: block;
+    margin: 0 auto;
+}
 
+#planning .title {
+    margin: 5rem 0 3rem;
+    font-size: 36px;
+}
 
 .col-planning {
     flex-basis: 50%;
@@ -221,13 +242,34 @@ section {
 
 }
 
-
 .app-devolpment {
-    background-color: white;
-    border-radius: 20px;
-    padding: 40px;
-    height: 100%;
-    margin-bottom: 50px;
+    margin: 1rem 0;
+    padding: 2rem;
+    color: #111;
+    background: white;
+}
+
+#planning .app-devolpment {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    border-radius: 50px;
+}
+
+#planning .app-devolpment {
+    font-style: italic;
+    font-size: 1.125rem;
+}
+
+.app-devolpment .icon-planning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 2rem auto 0;
+    background: #9792e4;
+    border-radius: 50%;
+    font-size: 1rem;
 }
 
 
@@ -266,6 +308,11 @@ section {
 }
 
 
+.testimonial-small img {
+    width: 150px;
+    height: 1500px;
+    border-radius: 50%;
+}
 
 
 
@@ -311,4 +358,12 @@ section {
     justify-content: center;
     align-items: center;
     padding: 50px;
+}
+
+
+
+/* FONT */
+
+.white-text {
+    color: white;
 }

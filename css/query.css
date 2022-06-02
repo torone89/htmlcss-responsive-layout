@@ -48,6 +48,10 @@
 
     }
 
+
+
+
+
     /* SECTION TESTIMONIAL */
 
     .col-testimonial {
@@ -97,19 +101,16 @@
     }
 
     /* SECTION PLANNING */
-
-    .container .row-planning {
-
+    .columns {
         display: flex;
-        height: 100%;
-        width: 100%;
+    }
+
+    #planning .app-devolpment img {
+        max-width: 300px;
     }
 
 
-    .row-planning img {
-        width: 50%;
-        height: 50%;
-    }
+
 
 }
 
