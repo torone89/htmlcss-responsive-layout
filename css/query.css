@@ -84,8 +84,19 @@
 
     .row-about {
 
-        flex-direction: row;
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        justify-content: space-between;
 
+    }
+
+    .about-small {
+        flex-basis: calc(40% - 20px)
+    }
+
+    .about-big {
+        flex-basis: calc(60% - 20px)
     }
 
 }
@@ -151,5 +162,15 @@
 
     .container {
         max-width: 1140px;
+    }
+
+
+
+    .about-small {
+        flex-basis: calc(30% - 20px)
+    }
+
+    .about-big {
+        flex-basis: calc(70% - 20px)
     }
 }

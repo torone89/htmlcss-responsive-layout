@@ -383,22 +383,7 @@ section {
 }
 
 
-/* SECTION ABOUT */
 
-.row-about {
-    display: flex;
-    flex-direction: column;
-    background-color: bisque;
-    border: 1px dashed black;
-}
-
-.about-big {
-    flex-basis: 80%;
-}
-
-.about-small {
-    flex-basis: 20%;
-}
 
 
 
@@ -450,6 +435,53 @@ section {
 }
 
 
+
+/* ********************** */
+/* SECTION ABOUT */
+/************************ */
+
+
+#about {
+    padding: 0 34px 80px;
+    margin-bottom: 0;
+}
+
+.about-title {
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+#about .text-p {
+    margin-bottom: 50px;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.quote-text {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#about .quote-image {
+    position: relative;
+    width: 180px;
+    margin-bottom: 16px;
+}
+
+.quote-image .icon {
+    position: absolute;
+    font-size: 200px;
+    top: -18px;
+    right: -18px;
+    line-height: 1;
+
+}
+
+.quote-image img {
+    width: 100%;
+    border-radius: 50%;
+}
 
 
 
